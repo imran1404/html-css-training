@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+<body style="background-color: rgb(0, 183, 255);">
+    <h1 style="text-align: center;">Survey Form</h1>
+    <form style="background: white; text-align: center; margin-top: 10px;"><br>
+
+        <p style="text-align: center; size: 32px;">Let us know how we can improve our service</p>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="Email" id="email" required><br><br>
+        <label for="age">Age:</label>
+        <input type="age" required><br><br>
+        <label for="profession">Profession:</label>
+        <select style="display: inline-block;" name="Select" id="profession">
+            <option value="Student">Student</option>
+            <option value="Worker">Worker</option>
+            <option value="None">None</option>
+        </select><br><br>
+        <label for="services">Who told you about this service: </label>
+        <input type="radio" name="services" id="service">Friends <br>
+
+        <input type="radio" name="services" id="service">Advertisment <br>
+        <input type="radio" name="services" id="service">Colleague <br><br>
+
+        <button>Submit</button><br><br>
+    </form>
+</body>
+
+</html>

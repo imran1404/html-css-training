@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+body {
+    background-color: wheat;
+}
+.first {
+    height: 1000px;
+    width: 200px;
+    border: 2px solid white;
+    background-color: red;
+    color: white;
+
+    margin: 10px auto;
+    background-image: url("ch.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+    background-attachment: local;
+}

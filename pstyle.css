@@ -1,0 +1,14 @@
+.body {
+    background-color: cyan;
+}
+
+.first {
+    color: black;
+    background-color: white;
+
+}
+.second {
+    height: 200px;
+    width: 200px;
+    background-image: url("ch.png");
+}

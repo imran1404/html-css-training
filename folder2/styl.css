@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    background: black;
+
+}
+
+nav {
+    text-align: center;
+    background-color: Red;
+    padding: 10px;
+    color: white;
+}
+
+a {
+    color: white;
+    word-spacing: 100px;
+    text-decoration: none;
+}
+main {
+    
+    height: 90vh;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 40px;
+   
+   
+    box-sizing: border-box;
+
+}
+footer{
+    text-align: center;
+    background-color: red;
+    color: white;
+}
