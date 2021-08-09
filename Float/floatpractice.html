@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+            display: inline;
+            color: white;
+            padding: 0 32px;
+
+        }
+
+        header {
+            background-color: black;
+            height: 12vh;
+            display: flex;
+            flex-direction: row-reverse;
+            /* justify-content: space-between; */
+            align-items: center;
+        }
+
+        .navimg {
+            padding-left: 32px;
+
+        }
+
+        .title {
+            color: white;
+            padding-right: 700px;
+            padding-left: 5px;
+        }
+        .box1{
+            background-color: green;
+            color: white;
+            height: 400px;
+            width: 400px;
+        }
+        .box2{
+            background-color: blue;
+            color: white;
+            height: 50vh;
+            width: 40vh;
+            order: 3;
+            
+        }
+        .box3{
+            background-color:red;
+            color: white;
+            height: 50vh;
+            width: 40vh;
+           
+        }
+        main{
+            height: 80vh;
+            background-color: violet;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+            
+        }
+
+            body{
+                background-color: aqua;
+                height: 150vh;
+            }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="title">
+            <h1>Navigator</h1>
+        </div>
+        <div class="navimg">
+            <img src="nav.png" alt="nav" height="50px" width="50px">
+        </div>
+    </header>
+    <main>
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+    </main>
+</body>
+
+</html>
