@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TransForm</title>
+    <style>
+        .container {
+            background-color: red;
+            height:455px;
+        }
+        .box{
+            border: 2px solid black;
+            /* transform-origin: 0; */
+            display: inline-block;
+            /* transform: translate(23px, 43px);
+            transform: scale(8, 5); */
+            /* transform: skew(10deg, 15deg); */
+            /* transform: translate(134px, 56px); */
+        }
+        img:hover{
+            width: 80px;
+        }
+        img{
+            width: 955px;
+            transition-property: width;
+            transition-duration: 5s;
+            transition-timing-function: ease-in;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+        <img src="https://source.unsplash.com/user/erondu/960x90">
+    </div>
+    </div>
+
+</body>
+
+</html>
