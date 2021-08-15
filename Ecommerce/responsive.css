@@ -1,0 +1,25 @@
+/* responsiveness */
+@media screen and (max-width: 850px){
+nav{
+    flex-direction: column;
+}
+header{
+    height: 20vh;
+}
+.logo{
+        justify-content: center;
+        padding-bottom: -100px;
+    }
+nav ul{
+    justify-content: center;
+}
+.search{
+    justify-content: center;
+}
+
+}
+@media screen and (max-width: 400px){
+    .slider{
+        height: 20vh;
+    }   
+}
