@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    margin: 3px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+}
+nav {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    margin: 3px;
+}
+.leftside{
+    float: left;
+    padding: 10px;
+    text-align: center;
+    margin: 3px;
+    width: 24%;
+    
+}
+.card{
+    float: left;
+    border: 2px solid black;
+    margin-top: 3px;
+    height: 200px;
+    width: 40%;
+    margin: 5px;
+}
+.middle{
+    float: left;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    margin: 3px;
+    width: 50%;
+    height: 400px;
+}
+.right{
+    float: left;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    margin: 3px;
+    width: 24%;
+    height: 400px;
+}
+footer{
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+    margin: 3px;
+}
+main:after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -6,20 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css Practice</title>
     <style>
-        p {
-            background-color: red;
-            height: 300px;
-            width: 900px;
-            margin: 100px;
-            box-sizing: border-box;
-            
+
+        div {
+            border: 3px solid red;
+            width: 30%;
+            height: 400px;}
+        
+        div a{
+            display: none;
+            text-align: center;
+            font-size: 32px;
+            text-decoration: none;
+          
         }
+        a:active {
+            color: red;
+        }
+        div:hover a {
+            display: block;
+        }
+        div::first-line{
+            color: green;
+        }
+        div::first-letter{
+            font-size: 56px;
+        }
+        
     </style>
 </head>
 <body>
     
     <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, iusto laborum amet beatae totam maiores ducimus, explicabo quod, sint aspernatur numquam doloribus tenetur voluptates accusantium! Exercitationem animi vitae delectus amet quam odio odit laboriosam ipsa magnam nulla facilis, ratione quibusdam molestiae voluptatem quaerat rerum illum cumque laborum, dolor dicta quis. Delectus quisquehenderit assumenda?</p>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, iusto laborum amet beatae totam maiores ducimus, explicabo quod, sint aspernatur numquam doloribus tenetur voluptates accusantium! Exercitationem animi vitae delectus amet quam odio odit laboriosam ipsa magnam nulla facilis, ratione quibusdam molestiae voluptatem quaerat rerum illum cumque laborum, dolor dicta quis. Delectus quisquehenderit assumenda?</span>
+        <img src="https://source.unsplash.com/user/erondu/?cricket" alt="" height="100px" width="200px">
+        <a href="www.google.com">google</a>
     </div>
 </body>
 </html>
