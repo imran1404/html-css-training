@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTML and Css Slider</title>
+    <style>
+        body{
+            width: 100vw;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .first{
+            background-color: red;
+           width: 100%;
+        }
+        .second{
+            background-color: yellow;
+            width: 100%;
+        }
+        .third{
+            background-color: green;
+            width: 100%;
+        }
+        .four{
+            background-color: orange;
+            width: 100%;
+        }
+        .slider{
+            display: flex;
+            justify-content: center;
+            border: 2px black solid;
+            width: 400%;
+            height: 500px;
+            animation-name: slider;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            position: relative;
+
+        }
+        @keyframes slider {
+            0% {
+                right: 0%;
+            }
+            25% { right: 100%;}
+            50% {
+                right: 200%;
+            }
+            100%{
+                right: 300%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="slider">
+<div class="first"></div>
+<div class="second"></div>
+<div class="third"></div>
+<div class="four"></div>
+
+    </div>
+    
+</body>
+</html>

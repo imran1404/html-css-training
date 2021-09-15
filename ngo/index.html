@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO For All</title>
+    <script src="https://kit.fontawesome.com/c713c29808.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            height: 200vh;
+            background-color: rgb(224, 214, 214);
+        }
+        header{
+            height: 8vh;
+            background-color: green;
+            display: flex;
+            align-items: center;
+
+        }
+        .logo{
+            color: white;
+            font-weight: bolder;
+            font-size: 22px;
+            padding: 0 70px;
+        }
+        nav{
+            padding: 0 125px;
+        }
+        ul li {
+            display: inline;
+            color: white;
+            padding: 0 30px;
+        }
+        ul li button {
+            padding: 5px;
+            border: none;
+            border-radius: 2px;
+        }
+        .social{
+           padding: 0 70px;
+        }
+        .social i {
+            padding: 0 10px;
+        }
+        .banner{
+            height: 80vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+            background-repeat: no-repeat;
+            background-size: 100vw 80vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .barcode{
+           
+            
+        }
+        .forum{
+            background-color: white;
+            height: 400px;
+            width: 300px;
+            
+            
+        }
+        .forum h1{
+            text-align: center;
+            padding: 20px;
+        }
+        label{
+            text-align: center;
+            padding: 10px;
+        }
+        input{
+            border: none;
+            border-bottom: 1px solid black;
+            margin: 10px;
+        }
+        .btn1{
+            margin: 10px 50%;
+            transform: translate(-50%, -50%);
+            padding: 3px 5px;
+            background-color: green;
+            border: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">A H R F</div>
+        </div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li> <button>Pay Now</button> </li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <div class="social">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+    </header>
+    <div class="banner">
+      <div class="barcode">
+          <img src="https://miro.medium.com/max/785/1*IR2e6Evsopa0qQy2PXTlFA.jpeg" alt="bar code" height="400px" >
+      </div>
+      <div class="forum">
+        <h1>Pay Online</h1>
+        <label for="">Account Number</label><br>
+        <input type="text" name="" id=""><br><br>
+        <label for="">Repeat Account Number</label><br>
+        <input type="text" name="" id=""><br><br>
+        <label for="">IFSC Code</label><br>
+        <input type="text" name="" id=""><br><br>
+        <label for="">Account Holder Name</label><br>
+        <input type="text"><br>
+        <button class="btn1">Submit</button>
+      </div>
+    </div>
+    
+</body>
+</html>
